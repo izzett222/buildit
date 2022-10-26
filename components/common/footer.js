@@ -1,31 +1,30 @@
 import Image from "next/image";
-import classes from "./footer.module.css";
 
 export default function Footer() {
   return (
-    <footer className={classes.footer}>
-      <div className={classes.wrapper}>
+    <footer className="bg-[#486a6f] py-10 text-[#f4f7ff]">
+      <div className="max-w-[1200px] mx-auto grid grid-cols-4">
         <div>
-          <p className={classes.logo}>Buildit</p>
-          <p className={classes.type}>Development company, 2022</p>
-          <p className={classes.alarm}>Site design – ⏰ Alarm</p>
+          <p className="font-bold text-2xl">Buildit</p>
+          <p className="mb-16">Development company, 2022</p>
+          <p>Site design – ⏰ Alarm</p>
         </div>
-        <ul className={classes.list}>
+        <ul className="font-medium text-base flex flex-col gap-[11px]">
           <li>Service 1</li>
           <li>Service 2</li>
           <li>Service 3</li>
           <li>Service 4</li>
           <li>Service 5</li>
-          <li><div className={classes.icons}>
-            <div className={classes.icon}>
+          <li><div className="flex gap-1">
+            <div className="w-10 h-10 relative">
                 <Image src="/icons/instagram.svg" alt="instagram" layout="fill" />
             </div>
-            <div className={classes.icon}>
+            <div className="w-10 h-10 relative">
                 <Image src="/icons/facebook.svg" alt="instagram" layout="fill" />
             </div>
           </div></li>
         </ul>
-        <ul className={classes.list}>
+        <ul className="font-medium text-base flex flex-col gap-[11px]">
           <li>About us</li>
           <li>Services</li>
           <li>Projects</li>

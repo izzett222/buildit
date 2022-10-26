@@ -1,14 +1,13 @@
 import Form from "../common/form";
-import classes from "./contact.module.css";
 import ContactCard from "./contactCard";
 
 export default function Contact() {
   return (
-    <section className={classes.contact}>
-      <div className={classes.details}>
-        <h6 className={classes.tag}>Contact</h6>
-        <h2 className={classes.title}>Get In Touch</h2>
-        <div className={classes["contact-wrapper"]}> 
+    <section className="py-[88px] max-w-[1200px] mx-auto flex gap-[120px]">
+      <div className="flex-1">
+        <h6 className="font-medium text-base text-[#5bccde]">Contact</h6>
+        <h2 className="font-bold leading-[48px] mt-[13px] mb-[110px] text-[#486a6f] text-4xl">Get In Touch</h2>
+        <div className="flex flex-col gap-[30px]"> 
           <ContactCard src="/icons/contact1.svg" title="Tel">
             708-790-0000
           </ContactCard>

@@ -1,28 +1,28 @@
-import classes from "./hero.module.css";
+/* eslint-disable @next/next/no-img-element */
 
 export default function Hero() {
   return (
-    <section className={classes.container}>
-      <div className={classes.details}>
-        <h1 className={classes.title}>Development company</h1>
-        <p className={classes.text}>
+    <section className="relative z-10 flex max-w-[1200px] mx-auto px-4 gap-12">
+      <div className="flex-[3] self-center">
+        <h1 className="text-[64px] mb-[20px] text-[#486a6f] font-bold leading-[72px]">Development company</h1>
+        <p className="text-[22px] text-[#678c92] mb-[100px] leading-9">
           Forward-thinking real estate developer, owner and investor with a
           reputation
         </p>
-        <div className={classes.btns}>
-            <button className={classes.btn}>Services</button>
-            <button className={classes["btn-secondary"]}>About the company</button>
+        <div className="flex gap-4">
+            <button className="bg-[#4397a4] shadow-button rounded-[5px] px-[27px] py-5 text-[#f4f7ff]">Services</button>
+            <button className="bg-[#c6dbff] shadow-button rounded-[5px] px-[27px] py-5 text-[#486a6f] font-bold text-base">About the company</button>
         </div>
       </div>
-      <div className={classes.images}>
-        <div className={classes.firstrow}>
-            <img src="/img/hero1.png" className={classes["small-img"]} alt="house" />
+      <div className="flex-[4] h-full">
+        <div className="flex gap-9 px-[18px] mb-10">
+            <img src="/img/hero1.png" className="self-end" alt="house" />
             <img src="/img/hero2.png" alt="house" />
-            <img src="/img/hero3.png" alt="house" className={classes["small-img"]} />
+            <img src="/img/hero3.png" alt="house" className="self-end" />
         </div>
-        <div className={classes.secondrow}>
+        <div className="flex gap-9">
         <img src="/img/hero4.png" alt="house" />
-        <img src="/img/hero5.png" className={classes["secondrow-img"]} alt="house" />
+        <img src="/img/hero5.png" className="self-start" alt="house" />
         </div>
       </div>
     </section>
