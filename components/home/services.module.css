@@ -1,0 +1,23 @@
+.container {
+  margin-top: 200px;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 160px;
+}
+.list {
+  display: flex;
+  gap: 20px;
+  padding-left: 0;
+  width: 100%;
+  padding-left: 100px;
+  margin-top: 60px;
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  color: #486a6f;
+}

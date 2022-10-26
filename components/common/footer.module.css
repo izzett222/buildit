@@ -1,0 +1,44 @@
+.footer {
+  background: linear-gradient(
+      84.81deg,
+      rgba(72, 106, 111, 0.2) 0%,
+      rgba(67, 151, 164, 0.2) 100%
+    ),
+    #486a6f;
+  padding: 40px 0;
+  color: #f4f7ff;
+}
+.wrapper {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.wrapper ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+}
+.type {
+  margin-bottom: 64px;
+}
+.list {
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+.icons {
+    display: flex;
+    gap: 4px;
+}

@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  position: relative;
+  z-index: 1;
+  padding-right: 16px;
+  padding-left: 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+}
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #4397a4;
+}
+.logo {
+  display: flex;
+  gap: 15px;
+  font-size: 24px;
+  color: #486a6f;
+  font-weight: 700;
+  align-items: center;
+  cursor: pointer;
+}
+.btn {
+  background: linear-gradient(
+      104.26deg,
+      rgba(67, 151, 164, 0.2) 0.88%,
+      rgba(91, 204, 222, 0.2) 99.89%
+    ),
+    #4397a4;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 25px;
+  color: #F4F7FF;
+  font-weight: 700;
+  font-size: 16px;
+
+}
+.item {
+    color: #678C92;
+    font-size: 16px;
+    font-weight: 500;
+}

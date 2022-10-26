@@ -1,0 +1,17 @@
+.banner {
+    position: absolute;
+    height: 800px;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
+    overflow: hidden;
+}
+.banner__img {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+} 
