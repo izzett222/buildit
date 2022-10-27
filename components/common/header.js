@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="flex max-w-[1200px] mx-auto mt-10 relative z-10 px-4 justify-between items-center">
+    <header className="flex max-w-[1200px] mx-auto mt-10 relative z-20 px-4 justify-between items-center">
       <Link href="/">
         <div className="flex gap-[15px] text-2xl text-[#486a6f] font-bold items-center cursor-pointer">
           <div className="w-[50px] h-[50px] rounded-full bg-[#486a6f]"></div>
