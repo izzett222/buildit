@@ -1,4 +1,7 @@
+import Link from "next/link";
+
 /* eslint-disable @next/next/no-img-element */
+
 
 export default function Hero() {
   return (
@@ -10,8 +13,8 @@ export default function Hero() {
           reputation
         </p>
         <div className="flex gap-4">
-            <button className="bg-[#4397a4] shadow-button rounded-[5px] px-[27px] py-5 text-[#f4f7ff]">Services</button>
-            <button className="bg-[#c6dbff] shadow-button rounded-[5px] px-[27px] py-5 text-[#486a6f] font-bold text-base">About the company</button>
+            <button className="bg-[#4397a4] shadow-button rounded-[5px] px-[27px] py-5 text-[#f4f7ff]"><Link href="/services">Services</Link></button>
+            <button className="bg-[#c6dbff] shadow-button rounded-[5px] px-[27px] py-5 text-[#486a6f] font-bold text-base"><Link href="/about">About the company</Link></button>
         </div>
       </div>
       <div className="flex-[4] h-full">

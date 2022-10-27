@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -32,7 +33,7 @@ export default function About() {
               Cras hendrerit molestie sapien sed fermentum. Mauris dui tortor,
               viverra vel ultrices in, congue sed ex.
             </p>
-            <button className="bg-[#4397a4] shadow-button rounded-[5px] text-[#f4f7ff] px-[70px] py-[15px] mt-10">Explore</button>
+            <button className="bg-[#4397a4] shadow-button rounded-[5px] text-[#f4f7ff] px-[70px] py-[15px] mt-10"><Link href="/about">Explore</Link></button>
           </div>
         </div>
       </div>

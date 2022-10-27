@@ -1,5 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
+import Link from "next/link"
 
+/* eslint-disable @next/next/no-img-element */
 export default function Projects() {
     return (<section className="py-[100px] max-w-[1200px] mx-auto">
 
@@ -15,7 +16,7 @@ export default function Projects() {
                      Cras hendrerit molestie sapien sed fermentum. Mauris dui tortor, 
                      viverra vel ultrices in, congue sed ex.
                 </p>
-                <button className="bg-[#4397a4] shadow-button rounded-[5px] text-[#f4f7ff] px-[70px] py-[15px] mt-10">Explore</button>
+                <button className="bg-[#4397a4] shadow-button rounded-[5px] text-[#f4f7ff] px-[70px] py-[15px] mt-10"><Link href="/projects">Explore</Link></button>
             </div>
             <div className="flex flex-1 mt-20">
                 <img
