@@ -8,7 +8,9 @@ module.exports = {
     extend: {
       backgroundImage: {
        "banner-bg": "linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%)",
-       "form": "linear-gradient(42.43deg, #c6dbff 0%, #e1ebfa 52.25%)"
+       "form": "linear-gradient(42.43deg, #c6dbff 0%, #e1ebfa 52.25%)",
+       "service-bg": "url('/img/service-bg.png')",
+       "projects-bg": "url('/img/project-bg.png')"
       }
     },
     boxShadow: {

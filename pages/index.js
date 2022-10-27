@@ -7,7 +7,6 @@ import About from '../components/home/about';
 import Projects from "../components/home/projects"
 import { Socials } from '../components/home/socials';
 import Contact from '../components/home/contact';
-import Footer from '../components/common/footer';
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
         <title>Home</title>
       </Head>
       <Banner />
-      <Header />
       <main>
         <Hero />
         <Services />
@@ -26,7 +24,6 @@ export default function Home() {
         <Socials />
         <Contact />
       </main>
-      <Footer />
     </>
   )
 }
