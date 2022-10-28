@@ -3,7 +3,7 @@ import Form from "../components/common/form";
 import Banner from "../components/home/banner";
 import ContactCard from "../components/home/contactCard";
 
-export default function about() {
+export default function Contact() {
   return (
     <>
       <Head>

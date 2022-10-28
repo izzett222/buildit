@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
 
-export default function about() {
+export default function About() {
   return (
     <>
       <Head>
